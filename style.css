@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    background-image:url('weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    text-align: center;
+    /* color: aliceblue; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#inputval{
+border-radius: 5px;
+}
+#btn{
+    margin-top: 5px;
+    background-color: rgb(87, 168, 240);
+    border-radius: 5px;
+    padding: 2px;
+    color:white;
+}
+#icon{
+    border: 2px solid rgb(184, 191, 241);
+    border-radius: 15px;
+}
